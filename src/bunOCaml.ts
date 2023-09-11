@@ -90,7 +90,6 @@ const BunOCaml: BunPlugin = {
 
       return {
         exports: {
-          default: "Hello, world!",
           hello: symbols.caml_hello,
         },
         loader: "object",
