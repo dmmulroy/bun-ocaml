@@ -1,4 +1,4 @@
-import { plugin as _plugin, plugin, type BunPlugin } from "bun";
+import { plugin, type BunPlugin } from "bun";
 import { dirname } from "path";
 import { dlopen, FFIType } from "bun:ffi";
 import { existsSync } from "fs";
